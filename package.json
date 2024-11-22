@@ -1,0 +1,53 @@
+{
+  "name": "insta-like-backend",
+  "version": "1.0.0",
+  "description": "insta-like API",
+  "main": "index.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [
+    "alura",
+    "insta-like",
+    "api",
+    "node.js"
+  ],
+  "author": {
+    "name": "Phillipe César Gomes de Queiroz",
+    "email": "phillipe.cesar07@gmail.com",
+    "url": ""
+  },
+  "contributors": [],
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "dev": "node --watch --env-file=.env --experimental-strip-types server.ts",
+    "test": "",
+    "tsx": "tsx"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.9.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
